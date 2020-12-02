@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-01T11:03:27 MST" name=" test Suite" finished-at="2020-12-01T11:03:53 MST" duration-ms="26161">
+    <groups>
+    </groups>
+    <test started-at="2020-12-01T11:03:27 MST" name="Test Chtome" finished-at="2020-12-01T11:03:47 MST" duration-ms="19918">
+      <class name="utahdemo.demo.TestU">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:utahdemo.demo.TestU@48974e45]" started-at="2020-12-01T11:03:27 MST" name="beforeTest" finished-at="2020-12-01T11:03:35 MST" duration-ms="8052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://selenium-hub-lb-1000488559.us-west-2.elb.amazonaws.com/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="demoTest()[pri:0, instance:utahdemo.demo.TestU@48974e45]" started-at="2020-12-01T11:03:35 MST" name="demoTest" finished-at="2020-12-01T11:03:46 MST" duration-ms="11583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:utahdemo.demo.TestU@48974e45]" started-at="2020-12-01T11:03:46 MST" name="afterTest" finished-at="2020-12-01T11:03:47 MST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- utahdemo.demo.TestU -->
+    </test> <!-- Test Chtome -->
+    <test started-at="2020-12-01T11:03:27 MST" name="Test FFF" finished-at="2020-12-01T11:03:53 MST" duration-ms="26161">
+      <class name="utahdemo.demo.TestU">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:utahdemo.demo.TestU@5fd4f8f5]" started-at="2020-12-01T11:03:27 MST" name="beforeTest" finished-at="2020-12-01T11:03:37 MST" duration-ms="10249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://selenium-hub-lb-1000488559.us-west-2.elb.amazonaws.com/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="demoTest()[pri:0, instance:utahdemo.demo.TestU@5fd4f8f5]" started-at="2020-12-01T11:03:37 MST" name="demoTest" finished-at="2020-12-01T11:03:49 MST" duration-ms="11918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:utahdemo.demo.TestU@5fd4f8f5]" started-at="2020-12-01T11:03:49 MST" name="afterTest" finished-at="2020-12-01T11:03:53 MST" duration-ms="3981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- utahdemo.demo.TestU -->
+    </test> <!-- Test FFF -->
+  </suite> <!--  test Suite -->
+</testng-results>

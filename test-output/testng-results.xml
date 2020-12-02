@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-01T10:14:57 MST" name="Suite" finished-at="2020-12-01T10:15:19 MST" duration-ms="22722">
+    <groups>
+    </groups>
+    <test started-at="2020-12-01T10:14:57 MST" name="Test Chtome" finished-at="2020-12-01T10:15:14 MST" duration-ms="17535">
+      <class name="utahdemo.demo.TestU">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:utahdemo.demo.TestU@fa49800]" started-at="2020-12-01T10:14:57 MST" name="beforeTest" finished-at="2020-12-01T10:15:02 MST" duration-ms="5080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="demoTest()[pri:0, instance:utahdemo.demo.TestU@fa49800]" started-at="2020-12-01T10:15:02 MST" name="demoTest" finished-at="2020-12-01T10:15:14 MST" duration-ms="12273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:utahdemo.demo.TestU@fa49800]" started-at="2020-12-01T10:15:14 MST" name="afterTest" finished-at="2020-12-01T10:15:14 MST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- utahdemo.demo.TestU -->
+    </test> <!-- Test Chtome -->
+    <test started-at="2020-12-01T10:14:57 MST" name="Test FFF" finished-at="2020-12-01T10:15:19 MST" duration-ms="22722">
+      <class name="utahdemo.demo.TestU">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:utahdemo.demo.TestU@29d89d5d]" started-at="2020-12-01T10:14:57 MST" name="beforeTest" finished-at="2020-12-01T10:15:03 MST" duration-ms="6083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="demoTest()[pri:0, instance:utahdemo.demo.TestU@29d89d5d]" started-at="2020-12-01T10:15:03 MST" name="demoTest" finished-at="2020-12-01T10:15:15 MST" duration-ms="12525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:utahdemo.demo.TestU@29d89d5d]" started-at="2020-12-01T10:15:15 MST" name="afterTest" finished-at="2020-12-01T10:15:19 MST" duration-ms="4083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- utahdemo.demo.TestU -->
+    </test> <!-- Test FFF -->
+  </suite> <!-- Suite -->
+</testng-results>

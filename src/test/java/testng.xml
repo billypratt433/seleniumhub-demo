@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name=" test Suite" parallel="tests" thread-count="2">
+	<test name="Test FFF">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url"
+			value="http://selenium-hub-lb-1000488559.us-west-2.elb.amazonaws.com/wd/hub" />
+		<classes>
+			<class name="utahdemo.demo.TestU" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test Chtome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url"
+			value="http://selenium-hub-lb-1000488559.us-west-2.elb.amazonaws.com/wd/hub" />
+		<classes>
+			<class name="utahdemo.demo.TestU" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
