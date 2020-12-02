@@ -3,7 +3,7 @@
 	<test name="Test FFF">
 		<parameter name="browser" value="firefox" />
 		<parameter name="url"
-			value="http://selenium-hub-lb-677795954.us-west-2.elb.amazonaws.com/wd/hub" />
+			value="http://selenium-hub-lb-10979332.us-west-2.elb.amazonaws.com/wd/hub" />
 		<classes>
 			<class name="utahdemo.demo.TestU" />
 		</classes>
@@ -11,7 +11,7 @@
 	<test name="Test Chtome">
 		<parameter name="browser" value="chrome" />
 		<parameter name="url"
-			value="http://selenium-hub-lb-677795954.us-west-2.elb.amazonaws.com/wd/hub" />
+			value="http://selenium-hub-lb-10979332.us-west-2.elb.amazonaws.com/wd/hub" />
 		<classes>
 			<class name="utahdemo.demo.TestU" />
 		</classes>
